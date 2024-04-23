@@ -58,7 +58,7 @@ const AuthProvider = ({children}) => {
     
     // },[])
 
-
+// ইউজার ওয়েবসাইট রিলোড দিলে লগিন অবস্থায় থাকবে নিচের কোড টি ব্যবহার করলে।
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, currentUser => {
             console.log("current value of the user :", currentUser);
@@ -69,6 +69,8 @@ const AuthProvider = ({children}) => {
             unSubscribe();
         }
     }, [])
+
+
     
 
 
