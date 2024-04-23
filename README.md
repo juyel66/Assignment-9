@@ -1,7 +1,7 @@
 # Website Name: JR Residential
 
 ## Live Site Link: https://assignment-09-juyel.netlify.app/
-## Live Site Link Add _redirects file: https://a9-b9.netlify.app/
+## Live Site Link Add _redirects file, site not firebase hosting add: https://a9-b9.netlify.app/
 
 ### Below is about my website:
 
